@@ -1,0 +1,7 @@
+what is javascript ?
+
+    javascript is a high level interpreted programming language that is used to create web, desktop , mobile and many general purpose applications.
+
+why javascript is interpreted ? 
+
+    javascript is interpreted because it was mainly designed for web browsers so the web browsers can interprete the source code directly without converting it into any intermediate code providing better utilization of time and space thus providing better efficency to browsers.
