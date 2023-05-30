@@ -31,7 +31,6 @@ function findAverage() {
     return sum/arguments.length;
 }
 
-
 sayHi()
 sayHiToUser("Harsh")
 console.log(getName());
