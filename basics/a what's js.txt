@@ -5,3 +5,30 @@ what is javascript ?
 why javascript is interpreted ? 
 
     javascript is interpreted because it was mainly designed for web browsers so the web browsers can interprete the source code directly without converting it into any intermediate code providing better utilization of time and space thus providing better efficency to browsers.
+
+what's js ?
+
+do you know what's compiled and interpreted language state languages that are compiled and state those which are interpreted.
+
+what kind of language is js ?why it is an  interpreted language ? 
+
+how many arguments does the console.log take : how to define a function with variable length argument.
+when do we use const variable and when do we use let variable.
+
+why there is no main function in javascript, how can we justify that the execution starts from the lines with global scope. is there any way we can implement functionality of main function in js code.
+because it is an interpreted language it and not compiled it doesn't have to indicate the compiler that from where to start the execution and event driver programming language it is not compulsory that every block of code will be executed atleast once !
+
+difference between let and var
+
+what are the instances where we can use const and let
+
+how many types of datatypes are there state use of them 
+
+what does an object type represent ?
+option A : a column 
+option B : a row
+option C : A table 
+
+can we overload the functions in javascript ? 
+
+how many tries do we need to guess a random number between 1 to 100
