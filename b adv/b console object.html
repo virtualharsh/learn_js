@@ -1,0 +1,47 @@
+<script>
+    console.log("this is console log");
+
+    console.error("this is error this can be written in exception handling");
+
+    console.warn("this is warn message used to warn when using API's and exception handling");
+
+    // displays assertion failed
+    console.assert(5>5)
+    
+    // returns undefined
+    console.assert(5>=5)
+
+    const inputStrToClear = prompt("type clear to clear the console")
+    if(inputStrToClear=="clear"){
+        console.clear()
+        alert("console was cleared")
+    }
+
+    const items = {
+        firstName : "Harsh",
+        middleName : "Bharat",
+        lastName :"Sonegra"
+    }
+    console.table(items)
+
+    console.info("This is some information")
+
+    console.table(console)
+    console.time("p1")
+    let sum = 0
+    for (let i = 0; i < 100 ;  i++) {
+        sum += i     
+    }
+    console.log("time taken by for loop");
+    console.timeEnd("p1")
+
+    console.time("p2")
+    sum = 0
+    let i = 0
+    while ( i <  100){
+        sum += (i++)
+    }
+    console.log("time taken by while loop");
+    console.timeEnd("p2")
+
+</script>
