@@ -1,0 +1,4 @@
+-> date-fns
+-> uuid
+-> for tailwind classes sorting 
+   npm install -D prettier prettier-plugin-tailwindcss

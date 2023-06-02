@@ -1,4 +1,4 @@
-// toString, join, pop, push, shift, unshift, delete, concat, reverse , sort, splice, slice
+// toString, join, pop, push, shift, unshift, delete, concat, reverse , sort, splice, slice,includes, toSorted
 
 const arr = [10,20,30,40,50]
 
@@ -46,6 +46,11 @@ console.log(arr);
 // sort
 arr.sort()
 console.log(arr);
+
+// the sort method sorts current(this) array instead if we want new array to be returned we use toSorted() method
+// following method is not avaliable in node.js yet but runs in major browsers
+// const sortedNewArray = Array.toSorted(arr)
+// console.log(`sortedNewArray ${sortedNewArray}`)
 
 // the sort function sorts alphabetically
 const alphaUnsortedArray = [10, 20, 3, 5,200]

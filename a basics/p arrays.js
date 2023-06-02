@@ -16,3 +16,6 @@ const arr = [1,"harsh",true,BigInt(200)]
 printArray(arr)
 changeArrayAtIndex(arr,1,"sonegra")
 printArray(arr)
+
+// we can create a copy of array with three dots
+const copyArr = [...arr]
