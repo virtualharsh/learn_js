@@ -68,3 +68,7 @@ console.log("Items after deleted ",arr)
 
 // slice
 console.log(arr.slice(1,4))
+
+// include
+console.log(arr.includes(10));
+console.log(arr.includes(90));

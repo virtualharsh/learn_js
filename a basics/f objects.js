@@ -11,3 +11,6 @@ myClass["adhhar"] = 63
 console.log(myClass);
 delete myClass["adhhar"]
 console.log(myClass);
+
+// we can also access the value of particular key using dot operator
+console.log(myClass.enr);
