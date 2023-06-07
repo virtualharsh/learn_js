@@ -31,6 +31,19 @@ function findAverage() {
     return sum/arguments.length;
 }
 
+function noArgs(){
+
+}
+
+function defaultArgSumOf2( a , b = 5){
+    return a + b;
+}
+
+console.log(noArgs());
+console.log(defaultArgSumOf2(5,10));
+console.log(defaultArgSumOf2(5));
+console.log(typeof defaultArgSumOf2(5));
+
 sayHi()
 sayHiToUser("Harsh")
 console.log(getName());
