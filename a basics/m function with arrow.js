@@ -1,5 +1,4 @@
-const sayHiToUser = (userName) =>{
-    console.log("hey there " + userName);
+const sayHiToUser = (userName) => {
+    console.log(`Hello ${userName} how are you !`);
 }
-
 sayHiToUser("Harsh")
