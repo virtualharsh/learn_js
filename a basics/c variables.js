@@ -1,4 +1,4 @@
-// must start with character, dollor sign $ and underscore
+// must start with character, Dollar sign $ and underscore
 
 $a = 20 
 console.log($a)

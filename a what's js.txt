@@ -36,3 +36,5 @@ how can we define function with default arguments
 can we overload the functions in javascript ? 
 
 how many tries do we need to guess a random number between 1 to 100
+
+what is the difference between parentNode and parentElement , firstChild and firstElementChild

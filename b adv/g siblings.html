@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siblings</title>
+</head>
+<body>
+    <div>
+        <h1>Hello From Harsh Sonegra</h1>
+        <!-- This is a comment -->
+        <p>I hope you are having a good day</p>
+        <p>Have a great ahead !</p>
+    </div>
+
+    <script>
+        for (const i of document.body.firstElementChild.childNodes) {
+            console.log(i);
+        }
+
+        // element that is inspected are accessed by $0 in console and $1 and so on for it's siblings
+
+        /*
+            $0 
+            <h1>​Hello From Harsh Sonegra​</h1>​
+
+            $0.nextElementSibling
+            <p>​I hope you are having a good day​</p>​
+
+            $0.nextElementSibling.nextElementSibling
+            <p>​Have a great ahead !​</p>​
+        */
+        console.log("parent node of h1");
+        console.log(document.body.firstElementChild.firstElementChild.parentElement);
+        console.log(document.body.firstElementChild.firstElementChild.parentNode);
+    </script>
+</body>
+</html>

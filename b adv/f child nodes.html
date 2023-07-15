@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child nodes</title>
+</head>
+<body> <!-- There is a hidden text node here -->
+    <div>
+        <p>This is child node of p tag</p>
+    </div>
+
+    <script>
+        console.log(`document.childNodes :`);
+        console.log(document.childNodes);
+
+        console.log(`document.body.childNodes :`);
+        console.log(document.body.childNodes);
+
+        console.log(`document.body.firstChild :`);
+        console.log(document.body.firstChild);
+
+        console.log(`document.body.firstElementChild :`);
+        console.log(document.body.firstElementChild);
+
+        console.log(`document.body.lastChild : ${document.body.lastChild}`);
+        console.log(document.body.lastChild);
+
+        console.log(`document.body.lastElementChild : ${document.body.lastElementChild }`);
+        console.log(document.body.lastElementChild);
+
+        
+    </script>
+</body>
+</html>
