@@ -11,7 +11,7 @@ let obj = {
     tanvi : "bhadiyadra"
 }
 
-// for in loop used for travarsal of composite data like array and objects.
+// for in loop used for traversal of composite data like array and objects.
 
 for (const i in obj) {
     console.log( i + "-> " + obj[i])
